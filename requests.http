@@ -1,0 +1,28 @@
+GET http://localhost:5000/api/accounts/John
+
+### 
+
+POST http://localhost:5000/api/accounts HTTP/1.1
+Content-Type: application/json
+
+{
+    "user": "John",
+    "amount": "150",
+    "description": "John's new bank account",
+    "currency": "INR"
+}
+### 
+
+PUT http://localhost:5000/api/accounts/John HTTP/1.1
+Content-Type: application/json
+
+{
+    "user": "John",
+    "description": "John's new bank account in INR",
+    "currency": "USD"
+}
+
+###
+
+DELETE http://localhost:5000/api/accounts/John HTTP/1.1
+

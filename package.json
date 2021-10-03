@@ -1,0 +1,28 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Beginner web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animesh371/web-server.git"
+  },
+  "author": "Animesh Gaitonde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animesh371/web-server/issues"
+  },
+  "homepage": "https://github.com/animesh371/web-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
